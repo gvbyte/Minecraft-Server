@@ -1,11 +1,17 @@
 # This configuration includes:
 
 **Minecraft Server (itzg/minecraft-server)**: Runs a Minecraft server and persists data.
+
 **Grafana**: A dashboard for visualizing metrics.
+
 **Prometheus**: For collecting and storing metrics.
+
 **Prometheus Node Exporter**: For exporting system-level metrics.
+
 **Kibana**: For visualizing Elasticsearch data.
+
 **Elasticsearch**: For storing and searching log data.
+
 # Additional Configuration
 ## Prometheus Configuration File (prometheus.yml)
 
@@ -40,7 +46,12 @@ docker-compose up -d
 This command will start all the services in detached mode. You can access the services via the following URLs:
 
 **Minecraft Server: minecraft-server:25565**
+
 **Grafana: http://localhost:3000 (default login: admin/admin)**
+
 **Prometheus: http://localhost:9090**
+
 **Kibana: http://localhost:5601**
+
 **Elasticsearch: http://localhost:9200**
+
