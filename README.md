@@ -39,8 +39,6 @@ Ensure Docker and Docker Compose are installed on your system.
 Save the docker-compose.yaml and prometheus.yml files in a directory.
 Navigate to the directory containing these files and run:
 ```
-sh
-Copy code
 docker-compose up -d
 ```
 This command will start all the services in detached mode. You can access the services via the following URLs:
